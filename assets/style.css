@@ -1,0 +1,213 @@
+.blue-grey.darken-3 {opacity: .5 }
+.blue-grey.darken-3:hover{opacity: 1 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(3, 88, 185), rgb(108, 0, 170));
+}
+
+.had-container {
+    box-shadow: 0px 10px 20px rgb(26, 27, 32);
+}
+
+.giveme {
+    background-color:rgba(0, 0, 0, 0.507);
+    margin: 0 3%;
+    border-radius: 10px;
+    padding: 20px; 
+    box-shadow: 0px 10px 20px rgb(26, 27, 32);
+}
+
+.giveme h3 {
+    font-size: 2.2vh;
+}
+
+.giveme p {
+    font-size: 1.5vh;
+}
+
+.tops {
+    background-color:rgba(0, 0, 0, 0.507);
+    margin: 0 3%;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgb(26, 27, 32);
+    display:none;
+}
+
+.selectgenre {
+    height: 500px;
+}
+.selectgenre h2 {
+    text-align: center;
+}
+
+.genre-selection {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.genre-section {
+    width: 15%;
+}
+
+.genre-selector {
+    background-color: rgba(121, 120, 120, 0.425);
+    border-radius: 10px;
+    font-size: 1.5vh;
+}
+
+.genre-section:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+	transition: all 300ms; 
+}
+
+/* .genre-selection {
+    background-color: rgb(61, 61, 61);
+} */
+
+
+.wrapper {
+    margin: auto;
+	width: 290px;
+	perspective: 1000px;
+	position: relative;
+	padding-top: 80px;
+}
+/* Carrousel animation */
+.carrouselwrapper {
+    width: 80%;
+    animation: rotar 50s infinite linear;
+    transform-style: preserve-3d;
+    position: absolute;
+}
+/* Pause carrousel animation on hover */
+.carrouselwrapper:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+.carrouselwrapper div {
+    width: 80%;
+	height: 120px;
+	border: 3px solid #000000;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 3px;
+}
+
+ .carrouselwrapper img {
+	image-rendering: auto;
+	transition: all 300ms;
+    width: 100%;
+    height: 100%;
+} 
+/* Zoom in animation on hover */
+.carrouselwrapper img:hover {
+	transform: scale(1.2);
+	transition: all 300ms; 
+}
+/* Animation for carrousel to rotate in 360deg */
+.carrouselwrapper div:nth-child(1) {
+	transform: rotateY(0deg) translateZ(450px); 
+} .carrouselwrapper div:nth-child(2) {
+	transform: rotateY(36deg) translateZ(450px); 
+} .carrouselwrapper div:nth-child(3) {
+	transform: rotateY(72deg) translateZ(450px); 
+} .carrouselwrapper div:nth-child(4) {
+	transform: rotateY(108deg) translateZ(450px); 
+} .carrouselwrapper div:nth-child(5) {
+	transform: rotateY(144deg) translateZ(450px); 
+} .carrouselwrapper div:nth-child(6) {
+	transform: rotateY(180deg) translateZ(450px); 
+} .carrouselwrapper div:nth-child(7) {
+	transform: rotateY(216deg) translateZ(450px); 
+} .carrouselwrapper div:nth-child(8) {
+	transform: rotateY(252deg) translateZ(450px); 
+} .carrouselwrapper div:nth-child(9) {
+	transform: rotateY(288deg) translateZ(450px); 
+} .carrouselwrapper div:nth-child(10) {
+	transform: rotateY(324deg) translateZ(450px); 
+} .carrouselwrapper div:nth-child(11) {
+	transform: rotateY(360deg) translateZ(450px); 
+}
+
+
+@keyframes rotar {
+	from {
+		transform: rotateY(0deg);
+	} to {
+		transform: rotateY(360deg);
+	}
+}
+
+.genrecontainer img {
+	width: 300px;
+	height: 125px;
+
+}
+
+
+
+.modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.733);
+    margin-top: 10px;
+    animation: zoom 0.3s ease-in-out;
+    visibility: hidden;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+.modal img {
+    width: 100%;
+    object-fit: cover;
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.closeBtn {
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.closeBtn:hover {
+    color: rgb(255, 255, 255);
+}
+
+.modal-text {
+    background-color:white;
+    justify-content: center;
+}
+
+.modal-text h4 {
+    font-size: 18px;
+    justify-content: center;
+}
+
+.modal h3 {
+    margin-top: 50px;
+}
