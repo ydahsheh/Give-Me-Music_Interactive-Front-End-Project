@@ -1,4 +1,4 @@
-## Give me Music Interactive-Font-End-Project
+## Give me Music Interactive-Front-End-Project
 
 1. [ Description. ](#desc)
 2. [ Web Address. ](#web-address)
