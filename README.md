@@ -1,60 +1,51 @@
-# project-1-team-8
+1. [ Description. ](#desc)
+2. [ Web Address. ](#web-address)
+3. [ Usage tips. ](#usage)
+4. [ Contributing. ](#contributing)
+5. [ License. ](#license)
 
-/--------------------------------------------------------------------------------------------/
-/-                                    Pending Definitions:                                  -/
-/--------------------------------------------------------------------------------------------/
-Idea suggestions:
+<a name="desc"></a>
+## 1. Discription
+## The Challenge
+To create a real-world front-end application that you’ll be able to showcase to potential employers.
+## Application Requirements
+Use a CSS framework other than Bootstrap.
 
-    - Suggestion 1: building a music player (Yasmeen)
-    - Suggestion 2: QR Code reader (Ana) - Selected
+Be deployed to GitHub Pages.
 
-Idea Selected:
-
-    - Suggestion 2: QR Code Generator
-
-Scope: Takes input from user on:
-    Location: User inputs his URL
-    Identifier: User created unique ID - identifying who is the creator & time/date of creation
-
-App generates QR code, prints on screen, and saves QR code and its data on Client Side.
-    
-
-CSS Framework (not Bootstrap):
-
-- Materialize (based on research it is created with CSS, JS, and HTML and suited for less experienced developers)
+Be interactive (i.e: accept and respond to user input).
 
 Use at least two server-side APIs.
 
-API 1: TBD (not defined - need to do further research on good matches for this proejct)
-API 2: TBD (not defined - need to do further research on good matches for this proejct)
+Does not use alerts, confirms, or prompts (use modals).
 
-/--------------------------------------------------------------------------------------------/
-/-                                    Acceptance Criteria:                                  -/
-/--------------------------------------------------------------------------------------------/
+Use client-side storage to store persistent data.
 
-1 - Be interactive (i.e: accept and respond to user input).
+Be responsive.
 
-2 - Be deployed to GitHub Pages, having a clean repository that meets quality coding standards
-    file structure, naming conventions, follows best practices for class/id-naming conventions, 
-    indentation, quality comments, etc.).
+Have a polished UI.
 
-      Gui: temporary Repo created (project-1-team-8)
+Have a clean repository that meets quality coding standards (file structure, naming conventions, follows best practices for class/id-naming conventions, indentation, quality comments, etc.).
 
-3 - Does not use alerts, confirms, or prompts (use modals).
+Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
+<a name="web-address"><a>
+## 2. Web Address 
+## How to get to Deployed Application
+Copy the URL below and paste it in any web browser of your choice.
+```html
+https://ydahsheh.github.io/ydahsheh_Interactive-Front-End-Project/
+```
+  <a name="usage"><a>
+## Usage tips
+Choose a Genre from the 10 shows.
+Choose a Track 
+Want to share the track you picked with a friend? Generate GR code.
+ <a name="contributing"><a>
+# 4. Contributing 
+Pull requests are welcome. For major changes, let repository owner know to discuss what would you like to change.
 
-4 - Use client-side storage to store persistent data.
+<a name="license"><a>
+# 5. License 
+None
 
-5 - Be responsive.
 
-6 - Have a polished UI.
-
-7 - Have a quality README
-    (with unique name, description, technologies used, screenshot, and link to deployed application).
-
-/--------------------------------------------------------------------------------------------/
-/-                                    Presentation Requirements                             -/
-/--------------------------------------------------------------------------------------------/
-
-Link to Presentation File:
-
-https://drive.google.com/drive/folders/146BbwUJWkR-aSOI9ueoks3NXiugB0gkK?usp=sharing
